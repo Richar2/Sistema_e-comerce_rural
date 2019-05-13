@@ -1,0 +1,72 @@
+#nav_temple1{
+  
+    width: 100%;
+    height: 80px;
+    background-color: #82131f;
+    position: absolute;
+    
+
+}
+li{
+    display: inline-block;
+    margin-left: 5%;
+}
+
+
+.position_menu{
+    position: absolute;
+    width: 61%;
+    height: 20px;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 50%;
+    
+}
+.menu{
+    
+    width: 70%;
+    height: 20px;
+    background-color: aqua;
+    font-family: 'Roboto', sans-serif;
+
+}
+.icon_position{
+    position:absolute;
+    left: 85%;
+    width: 15%;
+    height: 20px;
+    
+    background-color: blueviolet;
+}
+
+
+
+a{
+    
+    text-decoration:none;
+    color: #ffffff;
+    border-bottom: 8px solid #aaaaaa; 
+}
+
+.size_int{
+
+}
+.nav_int1{
+    
+    background-color: black;
+}
+.nav_int2{
+    width: 10%;
+    height: 20px;
+    background-color: black;
+}
+.nav_int3{
+    width: 25%;
+    height: 20px;
+    background-color: black;
+}
+.nav_int4{
+    width: 25%;
+    height: 20px;
+    background-color: black;
+}
