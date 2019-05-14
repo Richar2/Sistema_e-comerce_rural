@@ -14,14 +14,14 @@
     <nav id="nav_temple1" >
         <ul class="position_menu ">
             <div class="menu">
-                <li class="nav_int1"><a href="#">Início</a></li>
+                <li class=" nav_int1"><a href="#">Início</a></li>
                 <li class="nav_int2"><a href="#">Entrar</a></li>
                 <li class="nav_int3"><a href="#">Novo cadastro</a></li>
                 <li class="nav_int4"><a href="#">Publicar Anúncio</a></li>
             </div>     
             <div class="icon_position">
-                <li><i class="fas fa-search"></i></li>
-                <li><i class="fas fa-shopping-bag"><i class="fas fa-circle">5</i></i></li>
+                <li class="nav_int5"><i class="fas fa-search"></i></li>
+                <li class="nav_int6"><i class="fas fa-shopping-bag"><i class="fas fa-circle">5</i></i></li>
             </div>    
         </ul>
         

@@ -35,7 +35,7 @@ li{
     left: 85%;
     width: 15%;
     height: 20px;
-    
+    transform:  translateY(-20px);
     background-color: blueviolet;
 }
 
@@ -45,28 +45,34 @@ a{
     
     text-decoration:none;
     color: #ffffff;
-    border-bottom: 8px solid #aaaaaa; 
-}
-
-.size_int{
-
-}
-.nav_int1{
     
+
+}
+
+
+.nav_int1{
+    width: 10%;
+    height: 20px;
     background-color: black;
+    text-align: center;
+    
 }
 .nav_int2{
     width: 10%;
     height: 20px;
     background-color: black;
+    text-align: center;
 }
 .nav_int3{
     width: 25%;
     height: 20px;
     background-color: black;
+    text-align: center;
 }
 .nav_int4{
     width: 25%;
-    height: 20px;
+    height: 30px;
     background-color: black;
+    text-align: center;
+    border-bottom: 8px solid #aaaaaa;
 }
