@@ -20,48 +20,170 @@
                 <li class="nav_int"><a href="#">Publicar Anúncio</a></li>
             </div>     
             <div class="icon_position">
-                <li class="nav_int1"><i class="fas fa-search"></i></li>
+                <!--<li class="nav_int1"><i class="fas fa-search"></i></li>
                 <li class="nav_int2"><i class="fas fa-shopping-bag"></i></li>
-                <li class="nav_int3"><i class="fas fa-circle"></i></li>
-                <a class="value_bag" >5</a>
+                <li class="nav_int3"><i class="fas fa-circle"><a class="value_bag" >5</a></i></li>
+                -->
             </div>    
         </ul>
         
     </nav>
-    <div  class="test0">
 
+<div class="form">
+<form action="">
         
-        <li class="test"></li>
-        <li class="test"></li>
-        <li class="test"></li>
-        <li class="test"></li>
-        <li class="test"></li>
-        <li class="test"></li>
-        <li class="test"></li>
-        <li class="test"></li>
-        <li class="test"></li>
-        <li class="test"></li>
-        <li class="test"></li>
-        <li class="test"></li>
-        <li class="test"></li>
-        <li class="test"></li>
-        <li class="test"></li>
-        <li class="test"></li>
-        <li class="test"></li>
-        <li class="test"></li>
-        <li class="test"></li>
-        <li class="test"></li>
-        <li class="test"></li>
-        <li class="test"></li>
-        <li class="test"></li>
-        <li class="test"></li>
-        <li class="test"></li>
+        <div>
+            <h1 class="text_h">Em qual categoria deseja anunciar?</h1>
+            <p  class="text_p" >Selecione a categoria mais adequada para seu anúncio.</p>
+          
+           <ul>
+               <li> <a href="#">Equíno</a></li>
+               <li><a href="#">Caprino</a></li>
+               <li><a href="#">Bolvino</a></li>
+               <li><a href="#">Ovino</a></li>
+               <li><a href="#">Fazenda</a></li>
+               <li><a href="#">Maquinario</a></li>
+           </ul>
+        </div>
+        
+        
+        <div>
+           <h1 class="text_h">Qual o tipo do seu anúncio?</h1>
+           <p class="text_p">Informe a classificação do seu anúncio abaixo. Quanto mais específico, melhores serão seus resultados!</p>
+           <ul>
+               <li>?</li>
+           </ul>  
 
+        </div>
+        <div>
+               <ul>
+                   <li>?</li>
+               </ul>  
+
+       </div>
+
+       <div>
+           <h1 class="text_h">Descreva abaixo sua oferta.</h1>
+           <p class="text_p" >Defina as pricipais características do seu anúncio.</p>
+           <div>
+              
+              <label class="text_labe_input"   for="">Titulo</label>
+               <input type="text" name="title" >
+              
+               <label class="text_labe_input" for="">Descrição</label>
+               <textarea></textarea>
+              
+               <label class="text_labe_input" for="">Preço</label>
+               <input type="text">
+              
+               <label class="text_labe_input" for="">Localização</label>
+               <input type="text"name="title" >
+              
+               <label class="text_labe_input" for="">Pai</label>
+               <input type="text" name="title">
+              
+               <label class="text_labe_input" for="">Mãe</label>
+               <input type="text"name="title">
+              
+               <label class="text_labe_input" for="">Avô Paterno</label>
+               <input type="text"name="title" >
+              
+               <label class="text_labe_input" for="">Avó Paterno</label>
+               <input type="text"name="title" >
+              
+               <label class="text_labe_input" for="">Avô Materno</label>
+               <input type="text"name="title" >
+              
+               <label class="text_labe_input" for="" >Avó Paterno </label>
+               <input type="text" name="title">
+              
+               <label class="text_labe_input" for="">Valor a negociar</label>
+               <input type="text">
+               
+           </div>
+           <div>
+               <h1 class="text_h">Adicionar Imagens</h1>
+                 
+                  <div>
+
+                  
+                  </div>   
+               
+                   <input name="arquivo" type="file"/>
+               <h1 class="text_h">Adicionar link vídeo</h1>
+               <p class="text_p">Torne seu anúncio mais atrativo, adicione um vídeo</p>
+
+
+           </div>
+           
+
+
+       </div>
+
+
+
+
+
+
+
+
+
+</form>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer" >
+    <div class="cont">
+            <div class="text1_footer">
+            <h1 class="text_h_footer"> SOBRE O CLUBE RURAL</h1>
+            <p  class="text_p_footer"> Avenida Almirante Barroso - 803 </p>
+            <p  class="text_p_footer"> Fabrício - Uberaba - MG | CEP: 38065-000</p>
+            <p  class="text_p_footer"><b>TEL: </b>(34) 3334-7100<p> 
+            <p  class="text_p_footer"><b>MAIL: </b>contato@cluberural.com.br</p>
+            </div>
+            <div class="text2_footer">
+            <h1 class="text_h_footer">Nossos Serviços</h1>
+            <p class="text_p_footer"><a class= "text_a_footer" href="#">Política de envio</a></p>
+            <p class="text_p_footer"><a class= "text_a_footer" href="#">Compensação</a></p>
+            <p class="text_p_footer"><a class= "text_a_footer" href="#">Minha conta</a></p>
+            <p class="text_p_footer"><a class= "text_a_footer" href="#">Política de devolução</a></p>
+            <p class="text_p_footer"><a class= "text_a_footer" href="#">Contato</a></p>
+            </div>
+            <div class="text3_footer">
+            <h1 class="text_h_footer">(34) 3334-7100</h1>
+            <p class="text_p_footer">Seg - Sex</p>
+            <p class="text_p_footer">Das 8h às  18h</p>    
+            </div>
+            
+            </div>
+           <div class="log">
+
+            <img  class="logo_footer" src="{{asset ('/public_images/log_r.png')}}" alt="">
+
+            </div>
        
-
-
-
-    </div>
+    
+    
+    
+    
+</footer>
 
 
            
