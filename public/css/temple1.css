@@ -82,7 +82,7 @@ a{
 /*=================Footer==================*/
 
 .footer{
-   position: relative;
+    position: relative;
     top:300px;
     width: 100%;
     height: 300px;
@@ -147,16 +147,83 @@ a{
 }
 
 /*=================Form==================*/
-
-
-
+.form_cad_prod{
+    width: 520px;
+    height:800px;
+    background-color: violet;
+}
+.input_sl_1{
+    width: 419px;
+    height:37px;
+    margin: 10px  0 10px;
+    background-color: #f4f4f4;
+    border-radius:5px;
+    float: right;
+    display: inline-block;
+}
+.text_labe_input{
+    display: block;
+    line-height: 37px;
+}
+.cx_desc{
+    width: 419px;
+    border-radius:5px;
+    height: 143px;
+    float: right;
+    background-color: #f4f4f4;
+    margin: 10px  0 10px;
+}
+.input_sl_2{
+   float: right;
+    width: 419px;
+    height:37px;
+    display: inline-block;
+}
+.text_labe_input2{ 
+    display: block;
+    line-height: 37px;
+    background-color: #3c3c3c;
+}
 
 /*===============style_global===============*/
+.for{
+
+    /* magem referencial referncia*/
+   
+    /*centralização*/
+   
+}
 
 
+#main{
+    display: grid;
+    grid-template-rows: 30vh 30vh;
+    grid-template-areas: "test1 test2";
+
+}
 
 
+.test1{
+    grid-area: test1;
+    background-color: #3c3c3c;
+    position: relative;
+   
+}
+.test2{
+    grid-area: test2;
+    background-color: #865555;
+    position: relative;
+}
 
+ .ss{
+    position:absolute; 
+    width:100%;
+    height: auto;
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: azure;
+    text-align: justify;                                                        
+ }
 
 
 
@@ -184,7 +251,6 @@ a{
     font-family:'Roboto', sans-serif;
     font-weight: 600;
     color: #3c3c3c;
-
 }
 
 .pd_1{

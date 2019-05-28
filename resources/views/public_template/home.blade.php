@@ -29,7 +29,108 @@
         
     </nav>
 
-<div class="form">
+
+
+
+
+<h1>aaaaaaaaaaaaaaaaaaaaaaaqqqqqqiii</h1>
+
+
+
+<!-- form cadastro product -->
+
+<section class="form_cad_prod">
+<div><form>
+           <h1 class="text_h">Descreva abaixo sua oferta.</h1>
+           <p class="text_p" >Defina as pricipais características do seu anúncio.</p>
+           <div>
+             
+            <label class="text_labe_input2"  for="2">Titulo
+            <input class="input_sl_2" type="text" name="title" id="2"></label>
+            
+           
+             
+            
+            <br><label class="text_labe_input_de"  for="">Descrição
+            <textarea class="cx_desc"></textarea></label>
+            <br>
+            
+            <label class="text_labe_input" for="">Preço
+            <input class="input_sl_1" type="text"></label>
+            <br>   
+            <label class="text_labe_input" for="">Localização
+            <input class="input_sl_1" type="text"name="title" ></label>
+            <br>   
+            <label class="text_labe_input" for="">Pai</label>
+            <input class="input_sl_1" type="text" name="title">
+            <br>   
+            <label class="text_labe_input" for="">Mãe</label>
+            <input class="input_sl_1" type="text"name="title">
+            <br>   
+            <label class="text_labe_input" for="">Avô Paterno</label>
+            <input class="input_sl_1" type="text"name="title" >
+            <br>   
+            <label class="text_labe_input" for="">Avó Paterno</label>
+            <input class="input_sl_1" type="text"name="title" >
+            <br>   
+            <label class="text_labe_input" for="">Avô Materno</label>
+            <input class="input_sl_1" type="text"name="title" >
+            <br>   
+            <label class="text_labe_input" for="" >Avó Paterno </label>
+            <input class="input_sl_1" type="text" name="title">
+            <br>   
+            <label class="text_labe_input" for="1">Valor a negociar</label>
+            <input  class="input_sl_1" type="text" id="1">
+        </form>   
+        </div>
+           </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="form">
 <form action="">
         
         <div>
@@ -99,7 +200,7 @@
               
                <label class="text_labe_input" for="">Valor a negociar</label>
                <input type="text">
-               
+           </div>
            </div>
            <div>
                <h1 class="text_h">Adicionar Imagens</h1>
@@ -152,9 +253,9 @@
     <footer class="footer" >
     <div class="cont">
             <div class="text1_footer">
-            <h1 class="text_h_footer"> SOBRE O CLUBE RURAL</h1>
-            <p  class="text_p_footer"> Avenida Almirante Barroso - 803 </p>
-            <p  class="text_p_footer"> Fabrício - Uberaba - MG | CEP: 38065-000</p>
+            <h1 class="text_h_footer">SOBRE O CLUBE RURAL</h1>
+            <p  class="text_p_footer">Avenida Almirante Barroso - 803 </p>
+            <p  class="text_p_footer">Fabrício - Uberaba - MG | CEP: 38065-000</p>
             <p  class="text_p_footer"><b>TEL: </b>(34) 3334-7100<p> 
             <p  class="text_p_footer"><b>MAIL: </b>contato@cluberural.com.br</p>
             </div>
@@ -172,17 +273,10 @@
             <p class="text_p_footer">Das 8h às  18h</p>    
             </div>
             
-            </div>
-           <div class="log">
-
+    </div>
+        <div class="log">
             <img  class="logo_footer" src="{{asset ('/public_images/log_r.png')}}" alt="">
-
-            </div>
-       
-    
-    
-    
-    
+        </div>
 </footer>
 
 
