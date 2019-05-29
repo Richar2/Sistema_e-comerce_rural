@@ -45,45 +45,74 @@
            <p class="text_p" >Defina as pricipais características do seu anúncio.</p>
            <div>
              
-            <label class="text_labe_input2"  for="2">Titulo
-            <input class="input_sl_2" type="text" name="title" id="2"></label>
+            <label class="text_labe_input"  for="2">Titulo
+            <input class="input_sl_1" type="text" name="title" id="2"></label>
             
            
              
             
-            <br><label class="text_labe_input_de"  for="">Descrição
+            <label class="text_labe_input_de"  for="">Descrição
             <textarea class="cx_desc"></textarea></label>
-            <br>
+      
             
             <label class="text_labe_input" for="">Preço
-            <input class="input_sl_1" type="text"></label>
-            <br>   
-            <label class="text_labe_input" for="">Localização
+                    <div class="ps_pr">
+                        <input class="tip" type="text">
+                        <span>Por:</span>
+                        <select class="tip options" >
+                                <option value="animal">animal</option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                        </select>
+                        <br><input  class="chec" type="checkbox" name="vehicle1" value="Bike"> Valor a negociar  
+                    </div>
+                    
+            </label>
+          
+            <br><label class="text_labe_input" for="">Localização
             <input class="input_sl_1" type="text"name="title" ></label>
-            <br>   
-            <label class="text_labe_input" for="">Pai</label>
-            <input class="input_sl_1" type="text" name="title">
-            <br>   
-            <label class="text_labe_input" for="">Mãe</label>
-            <input class="input_sl_1" type="text"name="title">
-            <br>   
-            <label class="text_labe_input" for="">Avô Paterno</label>
-            <input class="input_sl_1" type="text"name="title" >
-            <br>   
-            <label class="text_labe_input" for="">Avó Paterno</label>
-            <input class="input_sl_1" type="text"name="title" >
-            <br>   
-            <label class="text_labe_input" for="">Avô Materno</label>
-            <input class="input_sl_1" type="text"name="title" >
-            <br>   
-            <label class="text_labe_input" for="" >Avó Paterno </label>
-            <input class="input_sl_1" type="text" name="title">
-            <br>   
-            <label class="text_labe_input" for="1">Valor a negociar</label>
-            <input  class="input_sl_1" type="text" id="1">
+            
+            <h1 class="text_p">Informações Genealógicas</h1>
+
+            <label class="text_labe_input" for="">Pai
+            <input class="input_sl_1" type="text" name="title"></label>
+          
+            <label class="text_labe_input" for="">Mãe
+            <input class="input_sl_1" type="text"name="title"></label>
+            
+            <label class="text_labe_input" for="">Avô Paterno
+            <input class="input_sl_1" type="text"name="title" ></label>
+            
+            <label class="text_labe_input" for="">Avó Paterno
+            <input class="input_sl_1" type="text"name="title" ></label>
+             
+            <label class="text_labe_input" for="">Avô Materno
+            <input class="input_sl_1" type="text"name="title" ></label>
+            
+            <label class="text_labe_input" for="" >Avó Paterno
+            <input class="input_sl_1" type="text" name="title"></label>
+             
+            <label class="text_labe_input" for="1">Valor a negociar
+            <input  class="input_sl_1" type="text" id="1"></label>
         </form>   
         </div>
-           </div>
+    </div>
+<!--Coluna 2-->
+
+     <div class="colun2">
+               <h1 class="text_h">Adicionar Imagens</h1>
+               <div class="bloc_2">
+
+               </div>
+               <input name="arquivo" type="file"/>
+                 
+    <div>
+
+
+
+
+
 </section>
 
 

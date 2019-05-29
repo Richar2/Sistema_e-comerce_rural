@@ -150,39 +150,63 @@ a{
 .form_cad_prod{
     width: 520px;
     height:800px;
-    background-color: violet;
+   
 }
 .input_sl_1{
     width: 419px;
     height:37px;
-    margin: 10px  0 10px;
     background-color: #f4f4f4;
     border-radius:5px;
-    float: right;
     display: inline-block;
+    position: absolute;
+    right:0;
 }
 .text_labe_input{
     display: block;
+    margin: 10px  0 10px;
     line-height: 37px;
+    position: relative;
+    
 }
 .cx_desc{
     width: 419px;
     border-radius:5px;
     height: 143px;
-    float: right;
+    right: 0;
     background-color: #f4f4f4;
-    margin: 10px  0 10px;
-}
-.input_sl_2{
-   float: right;
-    width: 419px;
-    height:37px;
+    position: absolute;
     display: inline-block;
+    resize: none;
+    
 }
-.text_labe_input2{ 
+.text_labe_input_de{
+    margin: 10px  0 10px;
     display: block;
-    line-height: 37px;
-    background-color: #3c3c3c;
+    line-height:143px;
+    position: relative;
+
+}
+.tip{
+    position: relative;
+    width: 185px;
+    height: 37px;
+    border-radius:5px;
+    right: 0;
+    background-color: #f4f4f4;
+}
+span{
+    padding-left:  19px;
+    padding-right:  5px;
+}
+.ps_pr{
+    display: inline-block;
+    right: 0;
+    position: absolute;
+    height:100px;
+}
+.chec{
+  padding: 
+
 }
 
 /*===============style_global===============*/
