@@ -147,6 +147,45 @@ a{
 }
 
 /*=================Form==================*/
+.form{
+    display:grid;
+    grid-template-columns:  50% ;
+    grid-template-rows: auto auto auto ;
+    grid-template-areas: 
+      "bloc_1_form bloc_1_form"
+      "bloc_2_form bloc_3_form "
+      "bloc_4_form bloc_4_form ";
+      grid-gap:  0  20px;
+}
+.bloc_1_form{
+    grid-area:bloc_1_form;
+    background-color: red
+}
+.bloc_2_form{
+    grid-area: bloc_2_form;
+    background-color: blue;
+    margin-left: auto;
+   
+    
+   
+}
+.bloc_3_form{
+    grid-area: bloc_3_form;
+    background-color: darkgreen;
+    
+}
+.bloc_4_form{
+    grid-area: bloc_4_form;
+    background-color: slateblue;
+}
+
+.aaa{
+    
+  
+    
+}
+
+
 .form_cad_prod{
     width: 520px;
     height:800px;
@@ -204,10 +243,20 @@ span{
     position: absolute;
     height:100px;
 }
-.chec{
-  padding: 
 
+
+
+.colun2{
+    
 }
+.image{
+   
+}
+
+
+
+
+
 
 /*===============style_global===============*/
 .for{

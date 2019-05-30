@@ -34,6 +34,92 @@
 
 
 <h1>aaaaaaaaaaaaaaaaaaaaaaaqqqqqqiii</h1>
+<!--object_forme -->
+<section class="form">
+    <div class="bloc_1_form">1</div>    
+    <div class="bloc_2_form">2
+    <section class="form_cad_prod">
+<div><form class="aaa">
+           <h1 class="text_h">Descreva abaixo sua oferta.</h1>
+           <p class="text_p" >Defina as pricipais características do seu anúncio.</p>
+           <div>
+             
+            <label class="text_labe_input"  for="2">Titulo
+            <input class="input_sl_1" type="text" name="title" id="2"></label>
+            
+           
+             
+            
+            <label class="text_labe_input_de"  for="">Descrição
+            <textarea class="cx_desc"></textarea></label>
+      
+            
+            <label class="text_labe_input" for="">Preço
+                    <div class="ps_pr">
+                        <input class="tip" type="text">
+                        <span>Por:</span>
+                        <select class="tip options" >
+                                <option value="animal">animal</option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                        </select>
+                        <br><input  class="chec" type="checkbox" name="vehicle1" value="Bike"> Valor a negociar  
+                    </div>
+                    
+            </label>
+          
+            <br><label class="text_labe_input" for="">Localização
+            <input class="input_sl_1" type="text"name="title" ></label>
+            
+            <h1 class="text_p">Informações Genealógicas</h1>
+
+            <label class="text_labe_input" for="">Pai
+            <input class="input_sl_1" type="text" name="title"></label>
+          
+            <label class="text_labe_input" for="">Mãe
+            <input class="input_sl_1" type="text"name="title"></label>
+            
+            <label class="text_labe_input" for="">Avô Paterno
+            <input class="input_sl_1" type="text"name="title" ></label>
+            
+            <label class="text_labe_input" for="">Avó Paterno
+            <input class="input_sl_1" type="text"name="title" ></label>
+             
+            <label class="text_labe_input" for="">Avô Materno
+            <input class="input_sl_1" type="text"name="title" ></label>
+            
+            <label class="text_labe_input" for="" >Avó Paterno
+            <input class="input_sl_1" type="text" name="title"></label>
+             
+            <label class="text_labe_input" for="1">Valor a negociar
+            <input  class="input_sl_1" type="text" id="1"></label>
+        </form>   
+        </div>
+    </div>
+  </section>
+
+
+
+
+
+    </div>
+    
+    <div class="bloc_3_form"></div>
+        
+     
+    <div class="bloc_4_form">4</div>    
+</section>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -102,7 +188,7 @@
 
      <div class="colun2">
                <h1 class="text_h">Adicionar Imagens</h1>
-               <div class="bloc_2">
+               <div class="image">
 
                </div>
                <input name="arquivo" type="file"/>
