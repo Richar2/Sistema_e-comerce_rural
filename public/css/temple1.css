@@ -147,6 +147,7 @@ a{
 }
 
 /*=================Form==================*/
+
 .form{
     display:grid;
     grid-template-columns:  50% ;
@@ -159,7 +160,9 @@ a{
 }
 .bloc_1_form{
     grid-area:bloc_1_form;
-    background-color: red
+    background-color: red;
+    position: relative;
+   
 }
 .bloc_2_form{
     grid-area: bloc_2_form;
@@ -179,11 +182,36 @@ a{
     background-color: slateblue;
 }
 
-.aaa{
-    
-  
-    
+.select_cat{
+    position: absolute;
+    width: 61%;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 50%; 
+    text-align: justify;    
 }
+.iten_cat{
+    
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 17px 35px 12px 35px;
+    border: solid 1px #696969;
+    border-radius: 5px; 
+  
+}
+.select_cat::after{
+    display: inline-block;
+    content: '';
+    width: 100%;
+}
+.select_text{
+    font-family:'Roboto', sans-serif; 
+    font-size:16.5px;
+    font-weight: 600;
+    color: #3c3c3c;
+}
+
+
 
 
 .form_cad_prod{
@@ -216,6 +244,7 @@ a{
     position: absolute;
     display: inline-block;
     resize: none;
+    outline: none;
     
 }
 .text_labe_input_de{
@@ -329,4 +358,14 @@ span{
 .pd_1{
     
 
+}
+
+.club{
+    width: 850px;
+    left: 50%; 
+    position: absolute;
+    transform: translate(-50%);
+    text-align: center;
+    opacity: 3;
+    font-family: 'Roboto', sans-serif;
 }

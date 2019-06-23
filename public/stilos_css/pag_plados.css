@@ -1,0 +1,325 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*======incio_section_plan ======*/
+
+.plan_{
+    
+    display: grid;
+    margin: auto;
+    grid-gap: 20px;
+    max-width: 1170px; 
+    grid-template-rows:auto minmax(auto, auto) ;
+    grid-template-areas:
+        "periodo periodo periodo periodo"
+        "colu1 colu2 colu3 colu4"
+
+       ;
+   
+}
+.plan_part2{
+    display:grid;
+    margin:auto;
+    max-width: 1030px; 
+    grid-gap: 20px;
+    grid-template-rows:auto minmax(auto, 400px) auto;
+    grid-template-areas:
+       "info info info"
+       "colu1_ colu2_ colu3_"
+       ". contact ."
+    ;
+}
+.periodo_plan{
+    grid-area: periodo;
+}
+.colu_select_plan1{
+    grid-area: colu1;
+}
+.colu_select_plan2{
+    grid-area: colu2;
+}
+.colu_select_plan3{
+    grid-area: colu3;
+}
+.colu_select_plan4{
+    grid-area: colu4; 
+}
+.info_plan{
+    text-align: center;
+    margin-top: 30px;
+    grid-area: info;
+    
+}
+.colu_info1{
+    grid-area: colu1_;
+}
+.colu_info2{
+    grid-area: colu2_;
+
+}
+.colu_info3{
+    grid-area: colu3_;
+}
+.contact{
+   grid-area: contact; 
+
+}
+/*txts_plan*/
+/*color*/
+.sub_titol_value, .titol_value, .titol_plan, 
+.sub_titol_plan, .text_cx_content, .text_cx_info, 
+.sub-tit_1,.icon_text_contat {
+    color: #3c3c3c;
+}
+.titol_cx_info, .titol_1{
+    color:#82131f;
+}
+
+
+/*tipo_famiy*/
+{
+    font-family: 'Raleway', sans-serif; 
+}
+/*11px*/
+.text_cx_content{
+    font-size:0.719em;
+}
+/*14.5px*/
+.sub_titol_value, .sub_titol_plan, .titol_1,.sub-tit_1, .icon_text_contat, .titol_1{
+    font-size:0.906em;
+}
+/*16px*/
+.text_cx_info{
+    font-size:1.000em;
+}
+/*22px*/
+.titol_value, .titol_plan{
+    font-size:1.375em;
+}
+/*24px*/
+.titol_cx_info{
+    font-size:1.500em;
+}
+
+.icon_text_contat{
+    padding-top:17px;
+    font-weight: 600;
+}
+.titol_1{
+    padding:30px 0 0 0;
+    font-weight: 900;
+}
+.sub-tit_1{
+    padding:21px 0 47px 0;
+    font-weight: 600;
+}
+.titol_cx_info{
+    font-weight:900; 
+}
+.text_cx_info{
+    font-weight:500; 
+}
+.text_cx_content{
+    padding-top:22px; 
+    font-weight:600; 
+}
+.sub_titol_plan{
+    font-weight:600;
+    padding: 17px;
+}
+
+.titol_plan{
+    padding-top: 14px;
+    font-weight: 900;
+}
+.titol_value{
+    font-weight: 900;
+
+}
+.sub_titol_value{
+    font-weight: 600;
+  
+}
+/*fim_texts_plan*/
+
+/*opcoes periodo*/
+.periodo_plan{
+    max-width:640px;
+    margin: auto;
+}
+/*fimopcoes periodo*/
+/* icons estilos*/
+.circulo, .c2 {
+    width: 81px;
+    height: 81px;
+    border-radius: 50%;
+    border: solid 1px #82131f;
+    margin: auto;
+    position: relative;
+}
+
+
+
+.fa-thumbs-up, .fa-bullhorn, .fa-user-md-chat, .fa-store, .fa-gem, .fa-laptop, .fa-rocket {
+    font-size: 36px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color:#008755;
+}
+/* fim icons estilos*/
+
+
+/*opcoes_plans*/
+.plan_one, .plan_two, .plan_free, .plan_four{
+    padding-top: 33px;
+    position: relative;
+    max-width: 232px;
+    width: 100%;
+    border:solid 1px #82131f;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+}
+.value_plan{
+    width: 100%;
+}
+
+.sell_plane{
+    font-family: 'Raleway', sans-serif; 
+    max-width: 197px;
+    width: 100%;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #82131f;
+    font-size:1.061em;
+    font-weight: 800;
+    color:#fbf063;
+    margin-top: 14px;
+}
+.cx_content_plan{
+    
+    max-width: 143px;
+    width: 100%;
+    text-align: left;
+    margin: auto;
+
+}
+
+.bt_plane{
+    margin-bottom: 19px;
+}
+
+
+/*fim opcoes_plans*/
+
+/*info*/
+.cx_info{
+    text-align: center;
+    padding-top:40px;
+    max-width: 281px;
+    width: 100%;
+    margin: auto;
+}
+.c2{
+    width: 142px;
+    height: 142px;
+    background-color: #82131f;
+}
+.fa-gem, .fa-laptop, .fa-rocket{
+    font-size: 60px;
+    color: #ffff;
+}
+/* fim info*/
+
+
+
+/* contact*/
+.titol_cx_contact{
+   text-align: center;
+   max-width:420px;
+   width: 100%;
+}
+.icon_cx_contact, .contact_cx_form{
+    max-width:420px;
+    width: 100%;
+}
+.icon_cx_contact{
+    padding-top: 20px;
+    margin: auto;
+    text-align: justify;
+}
+.icon_cx_contact::after{
+    content: '';
+    display: inline-block;
+    width:100%;
+}
+.icon_cx{
+   text-align: center;
+    width: 100px;
+    display: inline-block;
+}
+.contact_cx_form{
+    text-align: center;
+    margin:auto; 
+    display: block;
+}
+.contact_form{
+    height:37px;
+    max-width:420px;
+    width: 100%;
+    background-color: #f4f4f4;
+    border-radius:5px;
+    right: 0;
+    resize: none;
+    margin-top: 17px;
+}
+/*fim contact*/
+
+
+
+
+
+/*======fim_section_plan ======*/

@@ -1,0 +1,79 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+
+.grid{
+    display:grid;
+    grid-template-rows: 40% 40%;
+    grid-template-areas: "zone1 zone2";
+    grid-column-gap: 20px;
+
+  }
+.zone1{
+  grid-area: "zone1";
+  background-color:royalblue;
+  margin-left: 20%;
+ 
+}
+.zone2{
+  grid-area: "zone2";
+  background-color:red;
+  margin-right: 20%;
+}
+
+
+.lg{
+
+  width:420px;
+  top :10px;
+  border-radius:5px;
+  left:100%;
+  
+}
+.h{
+  height:37px;
+}
+.ht{
+  height:143px;
+ 
+}
+
+
+
+/*----------form---------------*/
+
+.container_{
+  width: 520px;
+  height: 600px;
+  background-color: blueviolet;
+
+
+}
+.in{
+  margin: 10px;
+
+
+}
+

@@ -1,0 +1,319 @@
+
+.grid_club_rural{
+    display: grid;
+    grid-gap: 30px; 
+    grid-template-areas: 
+    "destaque_2"
+    "promocoes"
+    "depoimentos"
+    "footer"
+    ;
+}
+/*fim carrssel */
+
+/* destaquea*/
+.destaque_2{
+    grid-area:destaque_2;
+}
+.cx_destaque_links{
+    padding-bottom: 20px;
+    max-width:1170px;
+    margin:auto;
+}
+.cx_destaque_links h1{
+    font-size:1em;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.cx_destaque_links a{
+    color:#212121;
+    text-decoration: none;
+}
+.content_cards{
+    display: grid;
+    grid-gap: 20px;
+    max-width:1170px;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: repeat(auto-fill,  minmax(100px, 270px));
+}
+/* fim destaquea*/
+
+
+/*forrm cad_email e contatos*/
+
+.promocoes {
+    grid-area:promocoes;
+    background-image: url('../images/Imagem Centro 2.jpg') ;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.promocoes::before{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: rgba(0,0, 0, 0.6)
+}
+.promocoes div{
+    position: relative;
+}
+
+.cad_email_button, .cad_email{
+    font-family: 'Raleway', sans-serif;
+}
+
+.cx_link_promo{
+    padding-top:50px; 
+    text-align: center;
+
+}
+.link_promo{
+    
+}
+.iten_link{
+    display: inline-block;
+    margin: 10px 0 0 10px;
+}
+.iten_link div{
+    height: 80px;
+    width: 270px;
+    border: 1px solid #ffffff; 
+    background-color: transparent;
+    position: relative;
+}
+
+.iten_link a{
+    color :#ffffff;
+    font-size: 1em;
+    display: block;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+.iten_link i{
+    color:#ded55a;
+    font-size: 22px;
+    letter-spacing: 5px
+}
+.text_promo{
+    text-align: center;
+    padding: 10px 0 35px 0;
+}
+.promo_titol{
+    font-size: 1.5em;
+    color:#ffffff;
+    font-weight: 500;
+    line-height: 1.8;
+}
+.promo_titol i{
+    color :#ded55a;
+}
+.promo_parag{
+    font-size: 0.938em;
+    color:#ffffff;
+}
+
+.input_cad_email{
+    text-align:center;
+    padding-bottom: 70px;
+}
+.cad_email[type="text"]{
+    background-color: transparent;
+    height: 35px;
+    width: 38%;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    outline: #ffffff;
+}
+.cad_email_button{
+    height: 40px;
+    width: 100px;
+    font-size:1.125em;
+    margin-left: -6px;
+    color: #212121;
+    background-color: #ffffff
+}
+
+/*fim forrm cad_email e contatos*/
+
+/*grid  depoimentos*/
+.depoimentos{
+    grid-area:depoimentos;
+}
+.content_depoi{
+    display: grid;
+    grid-gap: 30px;
+    max-width: 1170px;
+    margin: auto;
+    padding-bottom: 40px;
+    grid-template-areas:
+    "tit_depoi tit_depoi tit_depoi"
+    "depoi1 depoi2 depoi3" 
+}
+.titulo_depoi{
+    grid-area: tit_depoi;
+}
+.depoi_1{
+    grid-area:depoi1;
+    max-width:370px ;
+    background-color: #f1f1f1;
+    border-radius: 5px;    
+}
+.depoi_2{
+    grid-area:depoi2;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+.depoi_3{
+    grid-area:depoi3;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+.content_depoi img{
+    width: 100%;
+    border-radius: 5px;
+}
+.depoi_1 div{
+    padding-bottom: 20px;
+}
+.depoi_2 div{
+    padding-bottom: 20px;
+}
+.depoi_3 div{
+    padding-bottom: 20px;
+}
+.content_depoi h1{
+    font-size: 1.125em;
+    font-weight: bold;
+    color:#212121;
+}
+.content_depoi p{
+    font-size: 0.875em;
+    color:#888888;
+    line-height: 1.71;  
+}
+.content_depoi h1 {
+    font-size: 1.375em;
+    font-weight: bold;
+    color:#212121;
+}
+/* fim grid  depoimentos*/
+
+/*grid footer*/
+
+.footer_geral{
+    width: 100%;
+    height: 351px;
+    grid-area:footer;
+  
+
+}
+.content_footer{
+    display: grid;
+    grid-gap: 30px;
+    max-width: 1170px;
+    margin: auto;
+    grid-template-areas: "endereco endereco  n_servico contato logo_footer"
+                         "sid_bar sid_bar sid_bar sid_bar logo_footer"
+    ;
+}
+
+.endereco{
+    grid-area: endereco;
+  
+}
+.n_servico{
+    grid-area: n_servico;
+
+}
+.contato{
+    grid-area: contato;
+  
+}
+.logo_footer{
+    grid-area: logo_footer;
+ 
+}
+.sid_bar{
+    grid-area: sid_bar;
+    
+    border-top: 1px solid #555555;  
+}
+.img_logo_footer{
+    max-width: 350px;
+    max-height: 154px;
+   
+}
+.list_footer{
+    width: 180px;
+    text-align: justify;
+}
+.list_footer::after{
+    width: 100%;
+    display: inline-block;
+    content: ''
+}
+.inten_footer{
+    display:inline-block;
+}
+.list_logo{
+    left: 20px;
+    margin-left: 170px;
+}
+.icon_footer_logo{
+   padding-top: 10px;
+}
+
+/*footer fonts*/
+p,h1,a{
+    font-family: 'Raleway', sans-serif;
+    text-decoration:none; 
+}
+b{
+  font-weight:bold   
+}
+
+.titol_footer{
+    font-size:1.125em;
+    line-height: 1.33;
+    font-weight: bold;
+    color:#212121;
+    padding-bottom: 10px;
+}
+._1, ._2, ._3{
+    color:#555555;
+    font-size: 0.8125em;
+    text-align: left;
+}
+._1{
+    
+    line-height: 1.33;
+}
+
+._2{
+    line-height: 1.85;
+    
+}
+._3{
+    color:#b5b5b5;
+}
+.fa-twitter-square, .fa-pinterest, .fa-facebook-square, .fa-behance-square{
+    padding-top: 10px;
+    font-size:20px;
+    line-height: 0.95;
+    color:#3d3d3d;
+    text-align: left;
+}
+.face, .fa-youtube, .fa-instagram{
+    color:#194f46;
+    font-size: 32px;
+    text-align: right;
+}
+/*fim footer fonts*/
+/*fim grid_footer*/

@@ -10,5 +10,10 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+/* 
 Route::get('/', 'Subscription_plan\Subscription_planController@home' );
+Route::get('/user', 'Subscription_plan\Subscription_planController@user' )->name('user');
+Route::get('/planos_de_assinatura', 'Subscription_plan\Subscription_planController@planos' )->name('planos');
+Route::get('/novo_anuncio', 'Subscription_plan\Subscription_planController@anuncio' )->name('anuncio');
+*/
+Route::get('/', 'Subscription_plan\Subscription_planController@teste' );

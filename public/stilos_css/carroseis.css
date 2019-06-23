@@ -1,0 +1,27 @@
+.bnerr{
+    width:100%; 
+}
+
+.banerr
+div{
+    width:100%;
+    height: auto;
+    text-align: center;
+}    
+img{
+    max-width: 1900px;   /* Máximo da largura da imagem */
+    width: 100%;
+    max-height: 500px;  /* Máximo da altura da imagem */
+    min-height: auto;      /* Mínimo da altura, por padrão “auto” */
+    background-size:100%;
+    background-repeat: no-repeat;
+    
+    }
+
+/*carrocel card*/
+.caroucel_card{
+    width: 1100px;
+    margin: auto;
+    
+    
+}
