@@ -16,4 +16,9 @@ Route::get('/user', 'Subscription_plan\Subscription_planController@user' )->name
 Route::get('/planos_de_assinatura', 'Subscription_plan\Subscription_planController@planos' )->name('planos');
 Route::get('/novo_anuncio', 'Subscription_plan\Subscription_planController@anuncio' )->name('anuncio');
 */
-Route::get('/', 'Subscription_plan\Subscription_planController@teste' );
+Route::get('/', 'Sisten_site\UsersController@create_user' );
+Route::post('/save', 'Sisten_site\UsersController@save_user')->name('profile.save_user');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
