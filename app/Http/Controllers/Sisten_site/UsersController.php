@@ -6,14 +6,16 @@ use App\Models\Users;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Services\UserService;
+use App\Validators\UsersValidator;
 
 class UsersController extends Controller
 {
     
     protected $service;
 
-    public function __construct( UserService $service)
+    public function __construct( UserService $service )
     {
+        
         $this->service = $service;
     }
    
